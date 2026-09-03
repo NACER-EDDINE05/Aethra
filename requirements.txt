@@ -1,0 +1,18 @@
+fastapi>=0.110
+uvicorn[standard]>=0.27
+httpx>=0.26
+pydantic>=2.5
+pydantic-settings>=2.1
+python-multipart>=0.0.9
+
+# --- Optional (the backend degrades gracefully without them) ---
+# Better semantic retrieval:
+# sentence-transformers>=2.3
+# PDF text extraction:
+# pypdf>=4.0
+# Screenshot OCR (also requires the Tesseract binary on PATH):
+# pytesseract>=0.3.10
+# Pillow>=10.0
+
+# Dev / tests
+pytest>=8.0
